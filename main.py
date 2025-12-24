@@ -17,7 +17,7 @@ def main():
     path_to_file = "./books/frankenstein.txt"
     with open(path_to_file) as f:
         file_contents = f.read()
-        
+        print(file_contents)
         print(f"--- Begin report of books/frankenstein.txt ---")
         total_words = len(file_contents.split())
         print(f"{total_words} words found in the document")
